@@ -20,3 +20,7 @@ microservice:
     end-points:
       endpoint:
         uri: http://CUSTOMER-SERVICE/customer/**
+  admin-service:
+   end-points:
+     endpoint:
+       uri: http://ADMIN-SERVICE/admin/**
